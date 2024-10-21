@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohio Hospital</title>
+    <link rel="stylesheet" href="work4.css">
+</head>
+<body>
+    <div class="all">
+    <nav class="navbar">
+
+        <div class="brand-title">
+            <img src="red-cross-29930_1280.png" alt="">
+            <h3>Ohio Local Clinic</h3></div>
+        <a href="javascript:void(0);" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="login-container">
+       <div class="wrap">
+        <h1>Ohio LC Login/Sign up Page</h1>
+         <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="role">Role</label>
+                <select id="role" name="role" required>
+                    <option value="doctor">Doctor</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="patient">Patient</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <button onclick="window.location.href='signup.html'" class="signup-button">Sign Up</button>
+       </div>
+    </div>
+    </div>
+</body>
+</html>

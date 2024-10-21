@@ -1,0 +1,89 @@
+*{
+
+font-family: sans-serif;
+
+}
+.wrapped{
+    display: flex;
+    background-image: url(Pngtree—dark\ green.png);
+}
+.firstpage{
+    padding: 25px;
+    color: white;
+    background-color: transparent;
+    width: 40%;
+
+}
+h1{
+    margin-top: 150px;
+}
+.secondpage{
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    
+}
+hr{
+    width: 150px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 30px;
+}
+.social a{
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.social a:hover{
+    background-color: aqua;
+    color: blue;
+}
+input{
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+}
+p{
+    font-size: x-large;
+}
+.chbtn{
+width: 150px;
+height: 30px;
+border-radius: 20px;
+}
+
+.check a{
+    font-size: 25px;
+    color: white;
+}
+.check{
+    font-size: 20px;
+    align-items: center;
+}
+.check{
+    display: flex;
+}
+button{
+    padding: 7px 45px;
+    background-color: lightgreen;
+    color: green;
+    font-size: 20px;
+    border-radius: 2dvh;
+    margin: 30px;
+    cursor: pointer;
+}
+.details{
+    display: flex;
+}
+.page2{
+    margin-left: 25px;
+}
+
+

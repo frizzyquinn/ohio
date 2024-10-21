@@ -1,0 +1,67 @@
+*{
+
+}
+nav{
+    background-color: rgb(6, 33, 107);
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    text-align: right;
+    display: inline;
+    padding: 45px;
+    margin-right: 80px;
+}
+ul{
+    text-align: right;
+    padding: 20px;
+}
+h2{
+    border-bottom: 3px solid gray;
+}
+.menu{
+    color: rgb(236, 9, 66) ;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.main{
+    background-image: url(quinn.jpg);
+    padding: 20px;
+    background-size: cover;
+}
+.cover{
+    margin-left: 80px;
+    background-color: transparent;
+}
+p{
+    color: rgb(5, 5, 54);
+    padding: 10px;
+}
+input{
+    padding: 15px;
+    width: 300px;
+    font-size: 22px;
+}
+.ham{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 90%;
+}
+.ham span{
+    display: block;
+    width: 34px;
+    height: 2px;
+    background-color:rgb(236, 9, 66);
+    margin-bottom: 5px;
+    padding: 2px;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+}

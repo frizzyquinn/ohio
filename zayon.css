@@ -1,0 +1,121 @@
+*{
+font-family: sans-serif;
+margin: 0px;
+}
+nav{
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+nav img{
+    height: 50px;
+    width: 50px;
+   
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    
+}
+.card img{
+    width: 350px;
+    height: 300px;
+    border: 10px solid gray;
+    gap: 10px;
+    
+    
+}
+.card{
+    display: flex;
+    padding: 10px;
+    margin: 25px;
+    gap: 50px;
+    color: white; 
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.493);
+
+}
+
+.card1{
+    width: 350px;
+    padding: 20px;
+}
+.card1 p {
+    padding: 10px;
+}
+.butt button{
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transition: 1s ease;
+    border-radius: 10px;
+}
+.main{
+    background-image: url(pexels-chanwalrus-958545.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+   background-color: black;
+}
+.main2{
+    background-color: rgb(9, 9, 43);
+    display: flex;
+    gap: 50px;
+    padding: 60px;
+    color: gray;
+}
+.main2 p {
+    padding: 25px;
+}
+.partone a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    color: gray;
+}
+.parttwo a{
+     text-decoration: none;
+    text-transform: uppercase;
+    padding: 65px;
+}
+.foot img{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+.foot{
+     align-items: center;
+     display:flex ;
+     text-align: center;
+     color: gray;
+     justify-content:center ;
+     background-color: rgb(10, 10, 26);
+}
+.partone input{
+        padding: 15px 35px;
+        background-color: rgb(10, 10, 32);
+        color: grey;
+}
