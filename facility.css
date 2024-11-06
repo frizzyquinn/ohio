@@ -1,85 +1,177 @@
-*{
-    margin: 0px;
-
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header h1{
-    color: white;
-    font-size: xx-large;
-    padding-top: 20px;
-    text-transform: uppercase;
-}
-.box{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #fff;
-    padding: 12px 35px;
-    position: relative;
-    font-size: 13px;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 35px;
-}
-header img{
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    float: left;
-    margin: 10px;
-}
-header a:hover{
-    background-color: tomato;
-}
-header{
-     background-color: rgb(6, 6, 51);
-     width: 100%;
-     height: 200px;
-     text-align: center;
-     padding: 0px;
-     color: #fff;
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
-/*facilities*/
-.facility{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding: 30px;
+/* Header Styles */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
 }
 
-.facility-row{
-display: flex;
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
-.facility-col{
-flex-basis: 31%;
-border-radius: 10px;
-margin-bottom: 5%;
-text-align: left;
-margin-left: 15px;
-margin-top: 20px;
+
+header .arrow {
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
-.facility-col img{
-width: 100%;
-border-radius: 10px;
-height: 300px;
+
+header .arrow img {
+  width: 30px;
+  height: 30px;
 }
-.facility h1{
-   font-family: sans-serif;
-   font-size: 36px;
-   font-weight: 600;
+
+header .box {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
-.facility p{
-   font-weight: 300;
-   color: gray;
-   margin: 10px;
+
+header .box:hover {
+  background-color: #c0392b;
 }
-.facility-col h3{
-font-family: sans-serif;
-font-weight: 500;
+
+/* Facilities Section Styles */
+.facility {
+  text-align: center;
+  padding: 40px 10px;
 }
-@media(max-width:700px){
-.facility-row{
-    flex-direction: column;
+
+.facility h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
+
+.facility p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.facility-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.facility-col {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.facility-col img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.facility-col h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.facility-col p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .facility h1 {
+    font-size: 1.8rem;
+  }
+
+  .facility-row {
+    justify-content: center;
+  }
+
+  .facility-col {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .facility h1 {
+    font-size: 1.6rem;
+  }
+
+  .facility-row {
+    justify-content: center;
+  }
+
+  .facility-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  header .arrow {
+    left: 10px;
+    top: 10px;
+  }
+
+  header .box {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .facility h1 {
+    font-size: 1.4rem;
+  }
+
+  .facility p {
+    font-size: 1rem;
+  }
+
+  .facility-col h3 {
+    font-size: 1.2rem;
+  }
+
+  header .box {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
 }
